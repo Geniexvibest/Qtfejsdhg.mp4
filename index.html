@@ -1,86 +1,109 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <title>Play List Video</title>
-  <style>
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #0D0D0D;
-      text-align: center;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      min-height: 100vh;
-      padding: 10px;
-    }
-    .container {
-      width: 100%;
-      max-width: 360px;
-      background: #fff;
-      padding: 20px;
-      border-radius: 12px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    }
-    h1 {
-      font-size: 20px;
-      color: #333;
-      margin-bottom: 20px;
-    }
-    .download-btn {
-      display: block;
-      width: 100%;
-      padding: 14px;
-      background-color: #6E6E6E;
-      color: white;
-      text-decoration: none;
-      font-size: 16px;
-      border-radius: 6px;
-      margin: 10px 0;
-      font-weight: bold;
-      transition: background 0.3s;
-      word-wrap: break-word;
-    }
-    .download-btn:hover {
-      background-color: #000;
-    }
-
-    .gif-btn img {
-      width: 100%;
-      border-radius: 8px;
-      margin-top: 12px;
-    }
-
-    /* Khusus layar kecil */
-    @media (max-width: 480px) {
-      body { padding: 10px; }
-      .container { padding: 16px; }
-      h1 { font-size: 18px; }
-      .download-btn { font-size: 15px; padding: 12px; }
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My dog got more stamina than my boyfriend</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #ffffff;
+            padding: 20px;
+        }
+        .video-title {
+            font-size: 1em;
+            font-weight: bold;
+            margin-bottom: 18px;
+            letter-spacing: 1px;
+            color: black;
+        }
+        .video-wrapper {
+            position: relative;
+            width: 100%;
+            max-width: 720px;
+            margin: 0 auto;
+        }
+        video {
+            width: 100%;
+            max-width: 100%;
+            border-radius: 10px;
+            display: block;
+        }
+        .ad-banner-inside {
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 320px;
+            height: 50px;
+            background: rgba(255,255,255,0.92);
+            border-radius: 10px 10px 0 0;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 2;
+            overflow: hidden;
+        }
+        @media (max-width: 400px) {
+            .ad-banner-inside {
+                width: 95vw;
+                height: 40px;
+                font-size: 0.85em;
+            }
+        }
+    </style>
 </head>
 <body>
-
-  <div class="container">
-    <h1>Click Link to Watch</h1>
-
-    alternative 1 <a href="https://printerkidneyethel.com/qfnt81gxu?key=1035af6994e7319eb6630ec37c21df9f" class="download-btn">
-      https://cdn.videy.co/ioXPPm4Wer.mp4
-    </a>
-	
-    alternative 2 <a href="https://moviecdn.github.io/GpnH4sxk1.mp4/" class="download-btn">
-      https://cdn.videy.co/VAQOReKt1v.mp4
-    </a>	
-
+    <div class="video-title">My dog got more stamina than my boyfriend<span aria-label="smile" role="img"></span></div>
+    <center><script type="text/javascript">
+	atOptions = {
+		'key' : 'ea108d09e3f994f6046607eca1d07eee',
+		'format' : 'iframe',
+		'height' : 50,
+		'width' : 320,
+		'params' : {}
+	};
+</script>
+<script type="text/javascript" src="//printerkidneyethel.com/ea108d09e3f994f6046607eca1d07eee/invoke.js"></script>
+	<br>
+    <div class="video-wrapper">
+        <video autoplay loop playsinline controls poster="https://cdn.aceimg.com/32db522d6.png">
+            <source src="https://cdn.videy.co/cxy7szLN1.mp4" type="video/mp4">
+        </video>
   </div>
+
+  <footer>
+    © 2025 Blacked Streaming. All rights reserved.
+  </footer>
+
+  <script>
+    // Cegah masuk fullscreen lewat JavaScript
+    document.addEventListener('fullscreenchange', () => {
+      if (document.fullscreenElement) {
+        document.exitFullscreen();
+      }
+    });
+
+    // Proteksi klik kanan dan F12
+    (function () {
+      document.addEventListener('contextmenu', function (e) {
+        if (!e.target.closest('.allow-context, iframe')) {
+          e.preventDefault();
+        }
+      });
+
+      document.addEventListener('keydown', function (e) {
+        if (e.key === "F12") e.preventDefault();
+        if (e.ctrlKey && e.shiftKey && ["I","J","C"].includes(e.key.toUpperCase())) e.preventDefault();
+        if (e.ctrlKey && ["U","S"].includes(e.key.toUpperCase())) e.preventDefault();
+      });
+    })();
+  </script>
+
+
    <!-- Histats.com  START  (aync)-->
 <script type="text/javascript">var _Hasync= _Hasync|| [];
 _Hasync.push(['Histats.start', '1,4989369,4,0,0,0,00010000']);
@@ -93,5 +116,6 @@ hs.src = ('//s10.histats.com/js15_as.js');
 })();</script>
 <noscript><a href="/" target="_blank"><img  src="//sstatic1.histats.com/0.gif?4989369&101" alt="" border="0"></a></noscript>
 <!-- Histats.com  END  -->
-  </body>
+
+</body>
 </html>
